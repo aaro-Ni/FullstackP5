@@ -19,7 +19,7 @@ const Blogform = (props) => {
         setUrl('')
     }
     return (
-    <form onSubmit={addBlog}>
+    <form onSubmit={addBlog} id='blogForm'>
       <h2>Create new</h2>
       <div>
         title:

@@ -29,7 +29,7 @@ const Blog = ({ blog, handleBlogUpdate, handleBlogRemove, user }) => {
     handleBlogRemove (blog)
   }
   return(
-  <div style={blogStyle}>
+  <div style={blogStyle} className='blog'>
   <div>
     {blog.title} {blog.author}
     <button onClick={() => {setLarge(!large)}}>{large ? 'hide' : 'view'}</button>
